@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:wght@300;700&display=swap');
+
+.centered{
+    text-align: center;
+}
+
+.navbar{
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+}
+
+.container{
+    max-width:  1140px;
+}
+
+.items{
+    font-family: "Ubuntu";
+    font-size: 16px;
+}
+
+a,a:hover{
+  text-decoration: none;
+  color: #2B2B2B;  
+}
+li{
+    list-style: none;
+    
+}
+
+.right__menu{
+    
+    margin-top: 15px;
+    margin-left: 400px  ;
+}
+
+.bolds{
+font-weight: 500;
+}
+
+.intro{
+    width: 100%;
+    max-width: 1920px;
+    height: 507px;
+   
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.zag{
+    margin-top: 125px;
+    font-family: "Ubuntu";
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.inform{
+    margin-top: 13px;
+    font-family: "Ubuntu";
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.phone{
+    margin-left: 15px;
+    margin-top: 33px;
+    width: 217px;
+    height: 51px;
+    border-radius: 0;
+    box-shadow: inset 2px 2px 6px rgba(90, 90, 90, 0.65);
+}
+.btn{
+    width: 214px;
+    height: 51px;
+    background-color: red;
+    border-radius: 0;
+    margin-top: 33px;
+    margin-left: 17px;
+    color:#FFFFFF;
+    box-shadow: 0px 2px 8px rgba(65, 65, 65, 0.25);
+}
+
+.newss{
+    margin-top: 84px;
+    margin-bottom: 105px;
+    font-family: "Ubuntu";
+    font-weight: 500;
+    color: #2B2B2B;
+    font-size: 34px;
+}
+
+#rectangle__red {
+    width: 349px;
+    height: 243px;
+    background: #D51522;
+    
+    
+  }
+  #rectangle__blue{
+    width: 349px;
+    height: 243px;
+    background: #6F61A0;
+
+  }
+
+  #circle{
+    width: 120px;
+	height: 120px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  }
+
+  .footer{
+      height: 163px;
+      max-width: 1440px;
+      background-color: #211F2B;
+      
+  }
+
+  .footer__menu{
+      margin-top: 45px;
+      
+  }
+
+  .podr{
+      width: 156px;
+      height: 44px;
+      font-size: 14px;
+      border: 1px solid #D51522;
+      filter: drop-shadow(0px 2px 8px rgba(65, 65, 65, 0.25));
+      background-color: #FFFFFF;
+      color: #D51522;
+      margin-top :70px;
+  }
+
+  .date{
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #636363;
+  }
+
+  .text__news{
+    font-family: "Roboto";
+    font-weight: 500;
+font-size: 18px;
+color: #2B2B2B;
+  }
+
+  .size__card{
+      width: 349px;
+      height: 243px;
+      margin-top: 14px;
+      
+  }
