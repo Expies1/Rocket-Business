@@ -1,0 +1,46 @@
+@media (max-width: 1200px ){
+
+    
+   
+    .title_news{
+        text-align: center;
+        margin-bottom: 48px;
+    }
+   
+} 
+
+@media(max-width:991px){
+    .right__menu{
+        margin-left: -40px;
+    }
+.news_card{
+    margin-left: 300px;
+}   
+}
+
+@media(max-width:767px){
+    .footer_menu{
+        margin-left: 100px;
+    }
+    .news_card{
+        margin-left: 200px;
+    } 
+.zag{
+    text-align: center;
+}
+.inform{
+    text-align: center;
+}
+
+}
+
+@media(max-width:580px){
+
+    .footer_menu{
+        margin-left: 50px;
+    }
+
+    .news_card{
+        margin-left: 100px;
+    }   
+}

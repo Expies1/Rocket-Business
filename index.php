@@ -14,10 +14,11 @@ $conn = mysqli_connect('localhost', 'root', '', 'maximdb');
             crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <style>
     .intro {
-        background: url(img/fon1.jpg) center no-repeat;
+        background: url(img/ph.jpg) center no-repeat;
     }
 </style>
 <body>
@@ -88,15 +89,17 @@ $conn = mysqli_connect('localhost', 'root', '', 'maximdb');
 <div class="intro">
     <div class="container">
         <div class="row row-cols-1">
-            <h1 class="zag col-lg-6">Рекламно-информационное агенство</h1>
+            <h1 class="zag col-lg-6 col-md-7">Рекламно-информационное агенство</h1>
             <div class="w-100"></div>
-            <p class="inform col-lg-6">
+            <p class="inform col-lg-6 col-md-7">
                 Будем рады, если Вы обратитесь в наше Агенство. Мы готовы предложить
                 Вам передовые решения для продвижения Вашего бизнеса
             </p>
             <div class="w-100"></div>
-            <input class="phone form-control col-lg-3" type="text" placeholder="Номер телефона">
-            <button class="btn col-lg-2">Обратный звонок</button>
+           
+            <input class="feedb phone form-control col-lg-3 col-md-4 col-sm-4 col-4" type="text" placeholder="Номер телефона">
+            <button class=" btn col-lg-2 col-md-3 col-sm-4 col-4">Обратный звонок</button>
+        
         </div>
     </div>
 </div>
@@ -105,13 +108,13 @@ $conn = mysqli_connect('localhost', 'root', '', 'maximdb');
     <div class="container">
         <div class="row">
             <div class="col-lg-2 offset-lg-5" style="margin-bottom: 48px;">
-                <h1>Новости</h1>
+                <h1 class="news_title">Новости</h1>
             </div>
             <div class="w-100"></div>
 
-            <div id="rectangle__red" class="col-lg-4">
-                <div class="col-lg-4">
-                    <div class="card size__card">
+            
+                <div class="news_card col-lg-4 ">
+                    <div class="t red_color card size__card">
                         <div class="card-body">
                             <h5 class="card-title date">
                                 <?php
@@ -136,8 +139,8 @@ $conn = mysqli_connect('localhost', 'root', '', 'maximdb');
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
+            
+            <div class="news_card col-lg-4">
                 <div class="card size__card">
                     <div class="card-body">
                         <h5 class="card-title date">
@@ -164,9 +167,9 @@ $conn = mysqli_connect('localhost', 'root', '', 'maximdb');
                     </div>
                 </div>
             </div>
-            <div id="rectangle__blue">
-                <div class="col-lg-4">
-                    <div class="card size__card">
+            
+                <div class="news_card col-lg-4">
+                    <div class="blue_color card size__card">
                         <div class="card-body">
                             <h5 class="card-title date">
                                 <?php
@@ -192,9 +195,7 @@ $conn = mysqli_connect('localhost', 'root', '', 'maximdb');
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- <div id="rectangle__blue" class="col-lg-4 offset-lg-4">
-            </div> -->
+            
 
 
             <div class="navig">
@@ -213,41 +214,12 @@ $conn = mysqli_connect('localhost', 'root', '', 'maximdb');
                     <a class="navbar-brand" href="#"
                     ><img src="img/logo.png" alt=""
                         /></a>
-
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav items">
-                            <li class="nav-item">
-                                <a class="nav-link" style="color: #FFFFFF; margin-left: 228px;" href="#"
-                                >Услуги</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                        class="nav-link"
-                                        style="color: #FFFFFF;"
-
-                                        href="#"
-                                >Портфолио</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" style="color: #FFFFFF;" href="#"
-                                >Отзывы</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" style="color: #FFFFFF;" href="#"
-                                >Вакансии</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" style="color: #FFFFFF;" href="#"
-                                >Контакты</a
-                                >
-                            </li>
-                        </ul>
-
-
+                    <div class="footer_menu">
+                        <a href="#">Услуги</a>
+                        <a href="#">Портфолио</a>
+                        <a href="#">Отзывы</a>
+                        <a href="#">Вакансии</a>
+                        <a href="#">Контакты</a>
                     </div>
                 </nav>
             </div>
